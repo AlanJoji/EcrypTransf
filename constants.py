@@ -16,10 +16,9 @@ def get_size () :
     return (SIZE)
 
 def get_client_folder () :
-    client_folder = input("Enter the sending folder :")
+    client_folder = input("Enter the sending folder : ")
     return (client_folder)
 
 def get_server_folder () :
-    server_folder = input("Enter the receiving folder :")
+    server_folder = input("Enter the receiving folder : ")
     return (server_folder)
-
