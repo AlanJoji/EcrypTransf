@@ -32,6 +32,11 @@ Python
 > Will not work if there is a firewall
 - **Support for a wide variety of file types - txt, script**
 
+## Dependencies
+
+```shell
+pip install cryptography
+```
 
 ## Execution 
 
