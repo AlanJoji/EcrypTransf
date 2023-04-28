@@ -23,7 +23,7 @@ To make this work with multiple clients at the same time we'll have to make a **
 2. fernet
 3. os
 
-## Improvement Features
+## Improvements
 
 **Uniqueness factor**
 
