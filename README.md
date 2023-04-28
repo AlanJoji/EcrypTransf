@@ -33,7 +33,7 @@ Python
 - **Support for a wide variety of file types - txt, script**
 
 ## Dependencies
-
+Cryptography module needs to be installed, other modules are built-in
 ```shell
 pip install cryptography
 ```
