@@ -7,10 +7,10 @@ The application will allow for transfer of data:
 - From the client to the server(server here will act like a file backup, can be external to the users folder)
 - ~~The current program can handle only 1 client at a time. First the first client is served then the next client will be served - **One at a Time**.~~
 The current version is capable of handling multiple client connections to the server. But the connections are not multithreded, there is a single TCP welcoming socket and an individual connection socket created (and closed) for each client communication.
-To make this work with multiple clients at the same time we'll have to make a ***multi-threaded application using socket***.
-- The program supports send in a file from a client folder to a server folder, the user will have to change these folders to transfer files.
-- The program encrypts the files in transit using AES + CBS during transit using symmetric key encryption facilitated by the Fernet library.
-- The files to be sent are located from the OS using os module
+To make this work with multiple clients at the same time - ***multi-threaded application using socket***.
+- The program supports sending a file from a client folder to a server folder, the user will have to change these folders to transfer files.
+- The program encrypts the files in transit using AES in Block Cipher Mode with a 128-bit key for encryption during transit using symmetric key encryption facilitated by the Fernet library.
+- The files to be sent are located from the file system using os module
 
 
 ## Languages
@@ -23,9 +23,7 @@ To make this work with multiple clients at the same time we'll have to make a **
 2. fernet
 3. os
 
-## Improvements
-
-**Uniqueness factor**
+## Features
 
 - **Encryption during transit**
 - **File transfer from client to server**
@@ -39,13 +37,14 @@ To make this work with multiple clients at the same time we'll have to make a **
 
 A server terminal for running the server side to receive the file(s)
 ```bash
-python3 server.py
+python server.py
 ```
 
 A client terminal for running the client side to send the file(s)
 ```bash
-python3 client.py
+python client.py
 ```
 
 ## Future developments
 - [ ] File backup system
+- [ ] Multi-threading socket creation
