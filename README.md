@@ -15,7 +15,7 @@ To make this work with multiple clients at the same time - ***multi-threaded app
 
 ## Languages
 
-1. Python
+Python
 
 ## Libraries
 
@@ -34,6 +34,16 @@ To make this work with multiple clients at the same time - ***multi-threaded app
 
 
 ## Execution 
+
+Clone the repository using
+```shell
+git clone <url>
+```
+
+And enter the working directory
+```shell
+cd EcrypTransf
+```
 
 A server terminal for running the server side to receive the file(s)
 ```bash
