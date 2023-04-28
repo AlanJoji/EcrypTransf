@@ -19,9 +19,9 @@ Python
 
 ## Libraries
 
-1. socket
-2. fernet
-3. os
+1. ```socket```
+2. ```fernet```
+3. ```os```
 
 ## Features
 
@@ -37,7 +37,7 @@ Python
 
 Clone the repository using
 ```shell
-git clone <url>
+git clone https://github.com/AlanJoji/EcrypTransf.git
 ```
 
 And enter the working directory
